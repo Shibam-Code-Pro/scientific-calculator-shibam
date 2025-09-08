@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic page setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    
+    <!-- Link to our CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main container for the calculator -->
+    <div class="calculator-container">
+        <div class="calculator">
+            
+            <!-- Display screen where numbers and results show -->
+            <div class="display-section">
+                <div class="display" id="display">0</div>
+            </div>
+            
+            <!-- All the calculator buttons -->
+            <div class="keypad">
+                
+                <!-- First row: Clear and brackets -->
+                <button class="btn btn-clear" onclick="clearAll()">C</button>
+                <button class="btn btn-function" onclick="addNumber('(')">(</button>
+                <button class="btn btn-function" onclick="addNumber(')')">)</button>
+                <button class="btn btn-operator" onclick="addNumber('/')">/</button>
+
+                <!-- Second row: Numbers 7,8,9 and multiply -->
+                <button class="btn btn-number" onclick="addNumber('7')">7</button>
+                <button class="btn btn-number" onclick="addNumber('8')">8</button>
+                <button class="btn btn-number" onclick="addNumber('9')">9</button>
+                <button class="btn btn-operator" onclick="addNumber('*')">×</button>
+
+                <!-- Third row: Numbers 4,5,6 and minus -->
+                <button class="btn btn-number" onclick="addNumber('4')">4</button>
+                <button class="btn btn-number" onclick="addNumber('5')">5</button>
+                <button class="btn btn-number" onclick="addNumber('6')">6</button>
+                <button class="btn btn-operator" onclick="addNumber('-')">-</button>
+
+                <!-- Fourth row: Numbers 1,2,3 and plus -->
+                <button class="btn btn-number" onclick="addNumber('1')">1</button>
+                <button class="btn btn-number" onclick="addNumber('2')">2</button>
+                <button class="btn btn-number" onclick="addNumber('3')">3</button>
+                <button class="btn btn-operator" onclick="addNumber('+')">+</button>
+
+                <!-- Fifth row: Square root, 0, decimal point, equals -->
+                <button class="btn btn-function" onclick="addSquareRoot()">√</button>
+                <button class="btn btn-number" onclick="addNumber('0')">0</button>
+                <button class="btn btn-function" onclick="addNumber('.')">.</button>
+                <button class="btn btn-equals" onclick="calculate()">=</button>
+
+                <!-- Sixth row: Power and delete -->
+                <button class="btn btn-function btn-wide" onclick="addPower()">x^y</button>
+                <button class="btn btn-delete" onclick="deleteOne()">⌫</button>
+                
+            </div>
+            
+            <!-- Help text for keyboard shortcuts -->
+            <div class="instructions">
+                <p><strong>Keyboard shortcuts:</strong> Numbers (0-9), +, -, *, /, Enter (=), Escape (C), Backspace (delete)</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Link to our JavaScript file -->
+    <script src="calc.js"></script>
+</body>
+</html>
