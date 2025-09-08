@@ -2,6 +2,12 @@
 
 A beginner-friendly browser-based scientific calculator built with HTML, CSS, and JavaScript. This project supports basic arithmetic operations, parentheses, square root, and power functions with a modern, responsive design.
 
+
+## 🚀 Live Demo
+
+[View Live Scientific Calculator](https://Shibam-Code-Pro.github.io/scientific-calculator-shibam)
+
+
 ## 📁 Project Structure
 
 ```
@@ -135,3 +141,15 @@ This project was built as a beginner-friendly learning exercise focusing on:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 This project is open source and available for educational purposes.
+
+---
+
+## 📞 Contact
+
+- **Email**: Connect-With-Shibam@outlook.com
+- **LinkedIn**: [linkedin.com/in/shibam-webdev](https://linkedin.com/in/shibam-webdev)
+- **GitHub**: [github.com/Shibam-Code-Pro](https://github.com/Shibam-Code-Pro)
+
+---
+
+⭐ If you found this project helpful, please give it a star on GitHub!
