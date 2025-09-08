@@ -5,7 +5,7 @@ A beginner-friendly browser-based scientific calculator built with HTML, CSS, an
 
 ## 🚀 Live Demo
 
-[View Live Scientific Calculator](https://Shibam-Code-Pro.github.io/scientific-calculator-shibam)
+[View Live Scientific Calculator](https://scientific-calculator-shibam.netlify.app)
 
 
 ## 📁 Project Structure
