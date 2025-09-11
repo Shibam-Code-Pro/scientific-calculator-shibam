@@ -1,18 +1,42 @@
-# Scientific Calculator
+# 🧮 Scientific Calculator
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Calculator](https://img.shields.io/badge/Calculator-FF6B6B?style=for-the-badge&logo=calculator&logoColor=white)
 
 A beginner-friendly browser-based scientific calculator built with HTML, CSS, and JavaScript. This project supports basic arithmetic operations, parentheses, square root, and power functions with a modern, responsive design.
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshot/scientific-calculator-shibam.png" alt="Scientific Calculator Screenshot" width="600">
+  <p><em>Modern scientific calculator with gradient background and intuitive button layout</em></p>
+</div>
 
 ## 📁 Project Structure
 
 ```
 scientific-calculator-shibam/
-├── index.html          # Main HTML file with calculator layout
-├── styles.css          # CSS styling for design and animations
-├── calc.js             # JavaScript logic for calculator functionality
-├── README.md           # Project documentation (this file)
-├── LICENSE             # MIT License file
-└── .gitignore          # Git ignore file
+├── 📄 index.html          # Main HTML file with calculator layout
+├── 🎨 styles.css          # CSS styling for design and animations
+├── ⚡ calc.js             # JavaScript logic for calculator functionality
+├── 📸 screenshot/         # Project screenshots
+│   └── scientific-calculator-shibam.png
+├── 📖 README.md           # Project documentation (this file)
+├── 📜 LICENSE             # MIT License file
+└── 🚫 .gitignore          # Git ignore file
 ```
+
+## 🛠️ Technologies Used
+
+<table>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" height="40"/><br><b>HTML5</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40" height="40"/><br><b>CSS3</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/><br><b>JavaScript</b></td>
+</tr>
+</table>
 
 ## 📝 Commit History
 
