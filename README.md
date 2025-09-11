@@ -14,6 +14,10 @@ A beginner-friendly browser-based scientific calculator built with HTML, CSS, an
   <p><em>Modern scientific calculator with gradient background and intuitive button layout</em></p>
 </div>
 
+## 🚀 Live Demo
+
+[View Live Scientific Calculator](https://scientific-calculator-shibam.netlify.app/)
+
 ## 📁 Project Structure
 
 ```
