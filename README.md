@@ -16,7 +16,7 @@ A beginner-friendly browser-based scientific calculator built with HTML, CSS, an
 
 ## 🚀 Live Demo
 
-[View Live Scientific Calculator](https://scientific-calculator-shibam.vercel.app)
+[View Scientific Calculator](https://scientific-calculator-shibam.vercel.app)
 
 ## 📁 Project Structure
 
